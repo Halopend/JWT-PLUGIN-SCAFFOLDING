@@ -18,3 +18,6 @@ with params username and password for getting the token, and outh2 when attempti
 
 Uncertain about full usage desired, but assuming if it's to encrypt other rest api's on the site down the road
 this can also be ported from https://github.com/usefulteam/jwt-auth
+
+Video of it in use:
+https://s.tape.sh/hwE1bXpf
