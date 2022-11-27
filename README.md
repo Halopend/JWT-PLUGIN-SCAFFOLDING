@@ -1,5 +1,6 @@
 Built using WordpressMVC
 Adapted from: https://github.com/usefulteam/jwt-auth
+
 Uses composer to manage php dependencies.
 
 Fairly barebones, but use "JWT API Testing.paw" for testing the api
