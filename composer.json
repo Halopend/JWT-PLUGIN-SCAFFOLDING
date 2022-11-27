@@ -1,0 +1,31 @@
+{
+    "name": "10quality/wpmvc",
+    "type": "project",
+    "description": "WordPress MVC Framework.",
+    "keywords": [
+        "framework",
+        "wpmvc",
+        "wordpress",
+        "mvc"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "10quality/wpmvc-core": "^3.1",
+        "firebase/php-jwt": "^6.3"
+    },
+    "require-dev": {
+        "10quality/wpmvc-commands": "1.1.*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "WMAuth\\": "app"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
